@@ -1,0 +1,45 @@
+{
+  "productName": "GlassDB",
+  "version": "0.1.0",
+  "identifier": "com.glassdb.app",
+  "build": {
+    "beforeDevCommand": {
+      "script": "npx next dev -p 3001",
+      "cwd": "../.."
+    },
+    "devUrl": "http://localhost:3001",
+    "beforeBuildCommand": {
+      "script": "TAURI_BUILD=1 npm run build",
+      "cwd": "../.."
+    },
+    "frontendDist": "../../out"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "GlassDB",
+        "width": 1400,
+        "height": 900,
+        "resizable": true,
+        "fullscreen": false,
+        "decorations": true
+      }
+    ],
+    "withGlobalTauri": true,
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

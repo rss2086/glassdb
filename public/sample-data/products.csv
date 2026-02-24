@@ -1,0 +1,201 @@
+product_id,name,category,subcategory,price,cost
+1,Laptops A761,Electronics,Laptops,50,25
+2,Laptops B276,Electronics,Laptops,563,254
+3,Laptops C577,Electronics,Laptops,1953,986
+4,Laptops D833,Electronics,Laptops,551,189
+5,Laptops E320,Electronics,Laptops,1806,868
+6,Laptops F390,Electronics,Laptops,532,200
+7,Laptops G580,Electronics,Laptops,251,156
+8,Laptops H170,Electronics,Laptops,1697,1009
+9,Phones A876,Electronics,Phones,1101,388
+10,Phones B505,Electronics,Phones,956,467
+11,Phones C120,Electronics,Phones,505,154
+12,Phones D807,Electronics,Phones,1988,1324
+13,Phones E661,Electronics,Phones,1163,707
+14,Phones F340,Electronics,Phones,721,325
+15,Phones G427,Electronics,Phones,736,409
+16,Phones H241,Electronics,Phones,153,78
+17,Tablets A273,Electronics,Tablets,935,404
+18,Tablets B591,Electronics,Tablets,176,122
+19,Tablets C490,Electronics,Tablets,223,156
+20,Tablets D589,Electronics,Tablets,1418,531
+21,Tablets E715,Electronics,Tablets,1992,749
+22,Tablets F772,Electronics,Tablets,829,394
+23,Tablets G825,Electronics,Tablets,397,248
+24,Tablets H220,Electronics,Tablets,240,75
+25,Headphones A324,Electronics,Headphones,1293,585
+26,Headphones B193,Electronics,Headphones,1038,528
+27,Headphones C791,Electronics,Headphones,1969,865
+28,Headphones D923,Electronics,Headphones,567,321
+29,Headphones E929,Electronics,Headphones,959,457
+30,Headphones F388,Electronics,Headphones,961,664
+31,Headphones G768,Electronics,Headphones,1599,1033
+32,Headphones H578,Electronics,Headphones,1137,717
+33,Cameras A380,Electronics,Cameras,649,284
+34,Cameras B687,Electronics,Cameras,921,485
+35,Cameras C510,Electronics,Cameras,172,85
+36,Cameras D449,Electronics,Cameras,68,39
+37,Cameras E212,Electronics,Cameras,921,621
+38,Cameras F469,Electronics,Cameras,885,369
+39,Cameras G739,Electronics,Cameras,525,234
+40,Cameras H530,Electronics,Cameras,1875,576
+41,Shirts A213,Clothing,Shirts,249,128
+42,Shirts B831,Clothing,Shirts,129,45
+43,Shirts C637,Clothing,Shirts,127,42
+44,Shirts D447,Clothing,Shirts,111,45
+45,Shirts E283,Clothing,Shirts,104,57
+46,Shirts F276,Clothing,Shirts,96,67
+47,Shirts G806,Clothing,Shirts,204,103
+48,Shirts H300,Clothing,Shirts,51,23
+49,Pants A960,Clothing,Pants,100,37
+50,Pants B565,Clothing,Pants,222,119
+51,Pants C363,Clothing,Pants,154,69
+52,Pants D486,Clothing,Pants,126,58
+53,Pants E197,Clothing,Pants,107,47
+54,Pants F109,Clothing,Pants,223,103
+55,Pants G272,Clothing,Pants,115,59
+56,Pants H968,Clothing,Pants,263,175
+57,Dresses A558,Clothing,Dresses,242,95
+58,Dresses B831,Clothing,Dresses,71,46
+59,Dresses C665,Clothing,Dresses,296,130
+60,Dresses D210,Clothing,Dresses,207,136
+61,Dresses E978,Clothing,Dresses,209,146
+62,Dresses F136,Clothing,Dresses,52,23
+63,Dresses G554,Clothing,Dresses,170,63
+64,Dresses H325,Clothing,Dresses,59,36
+65,Jackets A770,Clothing,Jackets,76,33
+66,Jackets B617,Clothing,Jackets,133,91
+67,Jackets C943,Clothing,Jackets,144,80
+68,Jackets D176,Clothing,Jackets,155,75
+69,Jackets E614,Clothing,Jackets,230,83
+70,Jackets F450,Clothing,Jackets,188,82
+71,Jackets G533,Clothing,Jackets,78,49
+72,Jackets H151,Clothing,Jackets,200,101
+73,Shoes A236,Clothing,Shoes,195,111
+74,Shoes B144,Clothing,Shoes,244,94
+75,Shoes C967,Clothing,Shoes,146,87
+76,Shoes D681,Clothing,Shoes,168,53
+77,Shoes E430,Clothing,Shoes,124,62
+78,Shoes F861,Clothing,Shoes,123,79
+79,Shoes G147,Clothing,Shoes,276,144
+80,Shoes H654,Clothing,Shoes,224,91
+81,Furniture A672,Home & Garden,Furniture,21,10
+82,Furniture B895,Home & Garden,Furniture,266,116
+83,Furniture C532,Home & Garden,Furniture,290,139
+84,Furniture D133,Home & Garden,Furniture,268,83
+85,Furniture E464,Home & Garden,Furniture,152,79
+86,Furniture F625,Home & Garden,Furniture,170,96
+87,Furniture G797,Home & Garden,Furniture,192,68
+88,Furniture H489,Home & Garden,Furniture,245,169
+89,Kitchen A983,Home & Garden,Kitchen,40,19
+90,Kitchen B397,Home & Garden,Kitchen,292,135
+91,Kitchen C436,Home & Garden,Kitchen,298,184
+92,Kitchen D936,Home & Garden,Kitchen,102,34
+93,Kitchen E768,Home & Garden,Kitchen,194,130
+94,Kitchen F527,Home & Garden,Kitchen,258,93
+95,Kitchen G325,Home & Garden,Kitchen,31,13
+96,Kitchen H749,Home & Garden,Kitchen,137,81
+97,Decor A811,Home & Garden,Decor,84,40
+98,Decor B820,Home & Garden,Decor,193,96
+99,Decor C293,Home & Garden,Decor,246,100
+100,Decor D442,Home & Garden,Decor,203,80
+101,Decor E207,Home & Garden,Decor,84,46
+102,Decor F212,Home & Garden,Decor,187,84
+103,Decor G453,Home & Garden,Decor,167,76
+104,Decor H187,Home & Garden,Decor,281,87
+105,Lighting A861,Home & Garden,Lighting,90,52
+106,Lighting B811,Home & Garden,Lighting,165,50
+107,Lighting C241,Home & Garden,Lighting,124,44
+108,Lighting D345,Home & Garden,Lighting,125,39
+109,Lighting E145,Home & Garden,Lighting,210,80
+110,Lighting F186,Home & Garden,Lighting,215,130
+111,Lighting G556,Home & Garden,Lighting,264,137
+112,Lighting H360,Home & Garden,Lighting,234,163
+113,Tools A576,Home & Garden,Tools,223,93
+114,Tools B461,Home & Garden,Tools,205,79
+115,Tools C345,Home & Garden,Tools,182,98
+116,Tools D538,Home & Garden,Tools,209,92
+117,Tools E748,Home & Garden,Tools,159,69
+118,Tools F493,Home & Garden,Tools,237,154
+119,Tools G229,Home & Garden,Tools,138,59
+120,Tools H962,Home & Garden,Tools,140,84
+121,Fitness A565,Sports,Fitness,251,138
+122,Fitness B594,Sports,Fitness,16,11
+123,Fitness C426,Sports,Fitness,71,42
+124,Fitness D227,Sports,Fitness,142,51
+125,Fitness E776,Sports,Fitness,106,71
+126,Fitness F404,Sports,Fitness,212,125
+127,Fitness G679,Sports,Fitness,147,78
+128,Fitness H696,Sports,Fitness,77,46
+129,Outdoor A837,Sports,Outdoor,69,26
+130,Outdoor B944,Sports,Outdoor,116,74
+131,Outdoor C396,Sports,Outdoor,268,119
+132,Outdoor D798,Sports,Outdoor,91,48
+133,Outdoor E431,Sports,Outdoor,245,157
+134,Outdoor F395,Sports,Outdoor,33,13
+135,Outdoor G661,Sports,Outdoor,209,129
+136,Outdoor H658,Sports,Outdoor,235,96
+137,Team Sports A453,Sports,Team Sports,248,77
+138,Team Sports B628,Sports,Team Sports,117,76
+139,Team Sports C969,Sports,Team Sports,91,39
+140,Team Sports D527,Sports,Team Sports,224,103
+141,Team Sports E280,Sports,Team Sports,50,16
+142,Team Sports F381,Sports,Team Sports,255,153
+143,Team Sports G295,Sports,Team Sports,17,5
+144,Team Sports H918,Sports,Team Sports,91,49
+145,Water Sports A802,Sports,Water Sports,133,64
+146,Water Sports B309,Sports,Water Sports,34,23
+147,Water Sports C279,Sports,Water Sports,260,137
+148,Water Sports D570,Sports,Water Sports,25,13
+149,Water Sports E892,Sports,Water Sports,156,56
+150,Water Sports F813,Sports,Water Sports,274,165
+151,Water Sports G298,Sports,Water Sports,163,68
+152,Water Sports H280,Sports,Water Sports,34,24
+153,Cycling A607,Sports,Cycling,277,180
+154,Cycling B741,Sports,Cycling,250,90
+155,Cycling C265,Sports,Cycling,92,62
+156,Cycling D956,Sports,Cycling,294,97
+157,Cycling E796,Sports,Cycling,271,168
+158,Cycling F451,Sports,Cycling,293,118
+159,Cycling G518,Sports,Cycling,64,23
+160,Cycling H208,Sports,Cycling,264,160
+161,Fiction A320,Books,Fiction,15,10
+162,Fiction B384,Books,Fiction,22,13
+163,Fiction C195,Books,Fiction,16,8
+164,Fiction D521,Books,Fiction,19,13
+165,Fiction E805,Books,Fiction,16,9
+166,Fiction F379,Books,Fiction,28,16
+167,Fiction G907,Books,Fiction,31,14
+168,Fiction H833,Books,Fiction,30,14
+169,Non-Fiction A327,Books,Non-Fiction,24,17
+170,Non-Fiction B823,Books,Non-Fiction,34,10
+171,Non-Fiction C402,Books,Non-Fiction,17,11
+172,Non-Fiction D778,Books,Non-Fiction,11,5
+173,Non-Fiction E870,Books,Non-Fiction,43,18
+174,Non-Fiction F824,Books,Non-Fiction,17,9
+175,Non-Fiction G637,Books,Non-Fiction,24,14
+176,Non-Fiction H838,Books,Non-Fiction,9,5
+177,Technical A661,Books,Technical,35,14
+178,Technical B521,Books,Technical,15,8
+179,Technical C958,Books,Technical,27,16
+180,Technical D751,Books,Technical,15,5
+181,Technical E411,Books,Technical,36,17
+182,Technical F769,Books,Technical,26,16
+183,Technical G657,Books,Technical,44,17
+184,Technical H452,Books,Technical,40,14
+185,Children A491,Books,Children,20,8
+186,Children B201,Books,Children,15,8
+187,Children C540,Books,Children,41,14
+188,Children D253,Books,Children,34,22
+189,Children E716,Books,Children,23,8
+190,Children F345,Books,Children,13,4
+191,Children G166,Books,Children,17,11
+192,Children H379,Books,Children,10,5
+193,Comics A672,Books,Comics,37,17
+194,Comics B925,Books,Comics,13,5
+195,Comics C519,Books,Comics,40,26
+196,Comics D760,Books,Comics,31,15
+197,Comics E711,Books,Comics,15,7
+198,Comics F465,Books,Comics,30,12
+199,Comics G559,Books,Comics,34,11
+200,Comics H580,Books,Comics,39,22
