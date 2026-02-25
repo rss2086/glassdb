@@ -1,40 +1,24 @@
 # GlassDB
 
-Privacy-first data analysis powered by AI. Your data stays in your browser.
+Drop a file. Ask a question. Get a dashboard.
 
-## What it does
+GlassDB is the fastest way to explore a dataset. Drop in a CSV, Excel, or Parquet file, ask a question in plain English, and an AI agent instantly generates interactive charts, tables, and insights — no setup, no code, no waiting.
 
-GlassDB lets you drop in CSV, Excel, or Parquet files and ask questions in plain English. An AI agent writes SQL, queries your data locally with DuckDB-WASM, and renders interactive dashboards — all without your raw data ever leaving the browser.
+## How it works
 
-## Privacy architecture
-
-```
-┌──────────────────────────────────────────────────┐
-│  Browser                                         │
-│  ┌────────────┐   ┌─────────────┐                │
-│  │ Your Files  │──▶│ DuckDB-WASM │──▶ Dashboard   │
-│  └────────────┘   └──────┬──────┘                │
-│        ▲                 │ schema + sample rows   │
-│        │                 ▼                        │
-│        │          ┌─────────────┐                 │
-│        └──────────│   AI Agent  │                 │
-│          SQL      └─────────────┘                 │
-└──────────────────────────────────────────────────┘
-                           │ only metadata
-                           ▼
-                    Anthropic API
-```
-
-- **Raw data never leaves the browser.** Files are loaded directly into an in-browser DuckDB instance.
-- **You control what the AI sees.** A sample row slider (0–100) lets you choose how many example rows the model receives for context. Set it to 0 for schema-only mode.
-- **A live privacy beacon** tracks every token and row sent to the API in real time.
+1. **Drop** — Drag files onto the page. They're loaded into DuckDB-WASM instantly, right in your browser.
+2. **Ask** — Type a question like "show me revenue by month" or "which customers churned last quarter."
+3. **See** — The AI writes SQL, runs it against your data, and generates a full interactive dashboard in seconds.
+4. **Export** — Download any result as Excel, or ask the AI to slice the data differently.
 
 ## Features
 
-- **Quick mode** — fast single-pass analysis with tool calling
-- **Deep mode** — multi-step agentic analysis with extended thinking and code execution
+- **Instant dashboards** — AI generates charts, stat cards, and tables from your questions automatically
+- **Quick mode** — fast single-pass analysis for straightforward questions
+- **Deep mode** — multi-step agentic analysis with extended thinking for complex exploration
 - **5 themes** — Ember, Mono, Paper, Pixel, Vista
-- **Excel export** — download query results as `.xlsx`
+- **Excel export** — download any query result as `.xlsx`
+- **Privacy built in** — your raw data never leaves the browser. The AI only sees table schemas and a configurable number of sample rows. A live privacy beacon tracks exactly what's sent.
 - **Desktop app** — native macOS/Windows/Linux app via Tauri with system keychain storage and session persistence
 
 ## Quick start
@@ -81,14 +65,6 @@ The desktop app stores your API key in the system keychain — no `.env` file ne
 | Markdown | Streamdown |
 | Desktop | Tauri 2 (Rust) |
 | Export | SheetJS (xlsx) |
-
-## How it works
-
-1. **Load** — Drop files onto the landing page. They're parsed and loaded into DuckDB-WASM entirely in the browser.
-2. **Ask** — Type a question. The AI agent receives only table schemas and a configurable number of sample rows.
-3. **Query** — The agent writes DuckDB SQL. Queries execute locally in the browser against your full dataset.
-4. **Visualize** — Results are rendered as interactive charts, tables, and stat cards on a live dashboard.
-5. **Export** — Download any query result as an Excel file, or ask the AI to export specific slices of data.
 
 ## License
 
